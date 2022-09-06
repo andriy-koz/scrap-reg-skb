@@ -8,13 +8,4 @@ export default function Home() {
       <Search />
     </div>
   );
-
-  /*
-  - Navbar
-  - Autocomplete
-  - List
-
-  (Modal for adding, or deleting)
-  
-  */
 }

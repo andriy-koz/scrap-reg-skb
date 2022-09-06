@@ -1,6 +1,26 @@
-import Image from 'next/image';
+import { useState } from 'react';
+import { createAutocomplete } from '@algolia/autocomplete-core';
 
 const Search = () => {
+  const [autocompleteState, setAutocompleteState] = useState({
+    collections: [],
+    isOpen: false,
+  });
+
+  const autocomplete = createAutocomplete({
+    onStateChange: ({ state }) => setAutocompleteState(state),
+    getSources: () => [
+      {
+        sourceId: 'parts-next-api',
+        getItems: ({ query }) => {
+          if (!!query) {
+            return;
+          }
+        },
+      },
+    ],
+  });
+
   return (
     <form>
       <input
