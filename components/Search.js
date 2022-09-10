@@ -2,10 +2,18 @@ import { useState, useMemo, useRef } from 'react';
 import { createAutocomplete } from '@algolia/autocomplete-core';
 import Link from 'next/link';
 
-const AutocompleteItem = ({ name, code }) => {
+const AutocompleteItem = ({ name, code, model }) => {
   return (
-    <Link href={`/${code}`}>
-      <li>{name}</li>
+    <Link href={`/add-part/${code}`}>
+      <li className='my-2'>
+        <p className='flex flex-col'>
+          {name}
+          <span>
+            <span className='text-cyan-500 font-semibold'>{model}</span>{' '}
+            <span className='text-sm text-gray-400 italic'>{code}</span>
+          </span>
+        </p>
+      </li>
     </Link>
   );
 };
@@ -21,6 +29,7 @@ const Search = props => {
       createAutocomplete({
         placeholder: 'Buscar parte',
         onStateChange: ({ state }) => setAutocompleteState(state),
+        onSubmit: () => console.log('WORKING'),
         getSources: () => [
           {
             sourceId: 'parts-next-api',
@@ -48,7 +57,7 @@ const Search = props => {
   });
 
   return (
-    <form ref={formRef} {...formProps}>
+    <form ref={formRef} {...formProps} onSubmit={autocomplete.onSubmit}>
       <input
         ref={inputRef}
         placeholder='Buscar pieza'
@@ -57,7 +66,7 @@ const Search = props => {
       />
       {autocompleteState.isOpen && (
         <div
-          className='absolute bg-white rounded-lg shadow-lg text-black'
+          className='absolute text-white top-0 left-0 mt-12 pb-4 px-4'
           ref={panelRef}
           {...autocomplete.getPanelProps()}>
           {autocompleteState.collections.map((collection, index) => {

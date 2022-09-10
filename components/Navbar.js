@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Search from './Search';
 
 const Navbar = () => {
   return (
@@ -10,9 +11,9 @@ const Navbar = () => {
         alt=''
         className='rounded-full h-8 w-8'
       />
-      <h1 className='ml-5 text-base font-bold'>
-        Scrap <span className='italic'>SKB</span>
-      </h1>
+      <div className='mx-auto'>
+        <Search />
+      </div>
     </div>
   );
 };

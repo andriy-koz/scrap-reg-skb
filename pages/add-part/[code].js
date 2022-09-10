@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Search from '../components/Search';
+import Search from '../../components/Search';
 import Image from 'next/image';
 
 const Part = () => {
@@ -17,31 +17,27 @@ const Part = () => {
       .then(res => setProduct(res));
   }, [code]);
 
-  if (product) {
-    return (
-      <>
-        <div className='flex'>
-          <Link href={'/'}>
+  return (
+    <>
+      <div className='flex h-14 items-center px-4 bg-black/70 backdrop-blur-md'>
+        <Link href={'/'}>
+          <div className='flex align-middle'>
             <Image
               src={'/icons/backIcon.svg'}
-              width='32px'
-              height='32px'
+              width='24px'
+              height='24px'
               alt=''
             />
-          </Link>
-          <div className='mx-auto'>
-            <Search />
           </div>
-        </div>
-        <div>
-          <h2>
-            <span>{product.model}</span> - {product.name}
-          </h2>
-          <h3>{product.code}</h3>
-        </div>
-      </>
-    );
-  }
+        </Link>
+        <h2 className='mx-auto font-bold'>{product?.model}</h2>
+      </div>
+      <div>
+        <h2>{product?.name}</h2>
+        <h3>{product?.code}</h3>
+      </div>
+    </>
+  );
 };
 
 export default Part;
