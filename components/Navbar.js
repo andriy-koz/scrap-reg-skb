@@ -11,7 +11,7 @@ const Navbar = () => {
         className='rounded-full h-8 w-8'
       />
       <h1 className='ml-5 text-base font-bold'>
-        Scrap <span className='italic'>SKB!</span>
+        Scrap <span className='italic'>SKB</span>
       </h1>
     </div>
   );
