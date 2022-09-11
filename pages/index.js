@@ -1,12 +1,13 @@
 import Navbar from '../components/Navbar';
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    const storageList = JSON.parse(localStorage.getItem('scrap-list'));
-    setList(storageList);
+    if (typeof window !== 'undefined') {
+      setList(JSON.parse(localStorage.getItem('scrap-list')));
+    }
   }, []);
 
   return (
@@ -14,8 +15,8 @@ export default function Home() {
       <Navbar />
       <ul>
         {list &&
-          list.map((item, i) => {
-            return <li key={i}>{item.name}</li>;
+          list.map((item, index) => {
+            return <li key={index}>{item.name}</li>;
           })}
       </ul>
     </div>

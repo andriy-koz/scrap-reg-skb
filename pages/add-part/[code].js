@@ -28,22 +28,23 @@ const Part = () => {
     }
   };
 
-  const submitHandler = () => {
-    const myItem = {
-      name: product.name,
-      code: product.code,
-      model: product.model,
-      amount: inputVal,
-    };
-    const currentList = JSON.parse(localStorage.getItem('scrap-list'));
-    if (!currentList) {
-      localStorage.setItem(new Array(myItem));
-    } else {
-      localStorage.setItem(
-        'scrap-list',
-        JSON.stringify([...currentList, myItem])
-      );
+  const saveHandler = async (product, amount) => {
+    if (typeof window !== 'undefined') {
+      const list = (await JSON.parse(localStorage.getItem('scrap-list'))) || [];
+
+      const newItem = {
+        name: product.name,
+        code: product.code,
+        model: product.model,
+        amount,
+      };
+
+      const newList = [...list, newItem];
+
+      localStorage.setItem('scrap-list', JSON.stringify(newList));
     }
+
+    return;
   };
 
   return (
@@ -90,7 +91,7 @@ const Part = () => {
           </Link>
           <Link href={'/'}>
             <Image
-              onClick={submitHandler}
+              onClick={() => saveHandler(product, inputVal)}
               height={'32px'}
               width={'32px'}
               alt='save icon'
