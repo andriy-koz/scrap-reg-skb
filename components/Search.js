@@ -66,7 +66,7 @@ const Search = props => {
       />
       {autocompleteState.isOpen && (
         <div
-          className='absolute text-white top-0 left-0 mt-12 pb-4 px-4 bg-black'
+          className='absolute text-white top-0 left-0 mt-12 pb-4 px-4 bg-black w-screen h-screen'
           ref={panelRef}
           {...autocomplete.getPanelProps()}>
           {autocompleteState.collections.map((collection, index) => {
