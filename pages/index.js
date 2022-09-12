@@ -19,18 +19,28 @@ export default function Home() {
     }
   };
 
+  console.log(list);
+
   return (
     <div>
       <Navbar />
-      <ul>
+      <ul className='px-4 space-y-2 mt-2'>
         {list &&
           list.map((item, index) => {
-            return <ListItem key={index} props={item} />;
+            return (
+              <ListItem
+                key={index}
+                name={item.name}
+                amount={item.amount}
+                model={item.model}
+                code={item.code}
+              />
+            );
           })}
       </ul>
       <div
-        onClick={clearListHandler}
-        className='flex flex-col justify-center w-8 absolute bottom-8 right-8 active:brightness-75'>
+        onClick={() => clearListHandler()}
+        className='flex flex-col justify-center w-8 fixed bottom-8 right-8 active:brightness-75'>
         <Image
           height={32}
           width={32}
