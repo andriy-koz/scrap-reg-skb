@@ -19,7 +19,15 @@ export default function Home() {
     }
   };
 
-  console.log(list);
+  const removeItemHandler = (code, amount) => {
+    if (typeof window !== 'undefined') {
+      const newList = list.filter(item => item.code !== code);
+      localStorage.setItem('scrap-list', JSON.stringify(newList));
+      setList(newList);
+    }
+
+    console.log(code, amount);
+  };
 
   return (
     <div>
@@ -29,6 +37,7 @@ export default function Home() {
           list.map((item, index) => {
             return (
               <ListItem
+                onRemove={removeItemHandler}
                 key={index}
                 name={item.name}
                 amount={item.amount}
