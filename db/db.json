@@ -1,229 +1,229 @@
 {
   "parts": [
     {
-      "name": "FUNDA TANQUE",
-      "code": "04852.D",
-      "model": "A4"
+      "name": "FUNDA TANQUES",
+      "code": "1234",
+      "model": "B4"
     },
     {
-      "name": "EMBUTIDO TAPA/FONDO TANQUE",
-      "code": "04854",
-      "model": "A4/A5/A6"
+      "name": "EMBUTIDO TAPA/FONDO TANQUES",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "TAPA TANQUE",
-      "code": "04855.C",
-      "model": "A4/A5/A6"
+      "name": "TAPA TANQUES",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "FONDO TANQUE",
-      "code": "04860.A",
-      "model": "A4/A5/A6"
+      "name": "FONDO TANQUES",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "CENTRADOR CONDUCTOS SALIDA DE GASES",
-      "code": "04866.C",
-      "model": "A4/A5/A6"
+      "name": "CENTRADOR SALIDA DE GASES",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "ESCUADRA FIJACION PATAS",
-      "code": "04869.A",
-      "model": "A4/A5/A6"
+      "name": "ESCUADRAS FIJ. PATAS",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "FUNDA CAMARA DE COMBUSTION",
-      "code": "04871.C",
-      "model": "A4/A5"
+      "name": "FUNDA DE COMBUSTION",
+      "code": "1234",
+      "model": "B4/Z5"
     },
     {
-      "name": "SOPORTE VIDRIO VISOR",
-      "code": "04873.B",
-      "model": "A4/A5/A6"
+      "name": "SOPORTE VISOR",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "DEFLECTOR SALIDA DE GASES",
-      "code": "04876.C",
-      "model": "A4"
+      "name": "DEF. SALIDA",
+      "code": "1234",
+      "model": "B4"
     },
     {
-      "name": "TAPA CAMARA DE COMBUSTION",
-      "code": "04878.D",
-      "model": "A4/A5/A6"
+      "name": "TAPA CAMARAS DE COMBUSTION",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "COLECTOR DE GASES",
-      "code": "04881.E",
-      "model": "A4/A5/A6"
+      "name": "COLECTOR",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "PROTECCION FONDO",
-      "code": "04885.C",
-      "model": "A4/A5/A6"
+      "name": "PROTECCION FONDOS",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "SOPORTE ENCENDIDO",
-      "code": "04918",
-      "model": "A4/A5/A6"
+      "name": "SOP. ENCENDIDO",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
       "name": "INTERCEPTOR",
-      "code": "04925.A",
-      "model": "A4/A5/A6"
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "SOPORTE INTERCEPTOR",
-      "code": "04931",
-      "model": "A4/A5/A6"
+      "name": "SOP. INTERCEPTOR",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
       "name": "CUBRECAÑOS",
-      "code": "04948.C",
-      "model": "A4/A5"
+      "code": "1234",
+      "model": "B4/Z5"
     },
     {
-      "name": "SOPORTE SEPARADOR QUEMADORES",
-      "code": "04950.C",
-      "model": "A4/A5/A6"
+      "name": "SOPORTE SEP. QUEMADORES",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "SEPARADOR QUEMADORES",
-      "code": "04955.C",
-      "model": "A4/A5/A6"
+      "name": "SEP. QUEMADORES",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "MATRIZADO SEMICUERPOS QUEMADOR",
-      "code": "04960.C",
-      "model": "A4/A5/A6"
+      "name": "SEMICUERPOS QUEMADOR",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "SOPORTE TERMOSTATO",
-      "code": "04974.E",
-      "model": "A4"
+      "name": "SOP. TERMOSTATO",
+      "code": "1234",
+      "model": "B4"
     },
     {
-      "name": "TAPA SUPERIOR QUEMADOR ACQ 800/CFON",
-      "code": "04975.B",
-      "model": "A4/A5/A6"
+      "name": "TAPA SUPERIOR QUEMADOR",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "CONJUNTO QUEMADOR",
-      "code": "04980.C",
-      "model": "A4/A5/A6"
+      "name": "CONJ. QUEMADOR",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "CONJUNTO INTERCEPTOR SV",
-      "code": "04997.D",
-      "model": "A4"
+      "name": "CONJUNTO INTERCEPTOR",
+      "code": "1234",
+      "model": "B4"
     },
     {
-      "name": "CONJUNTO TAPA TANQUE",
-      "code": "05000.B",
-      "model": "A4/A5/A6"
+      "name": "CONJ. TAPA TANQUES",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "CONJUNTO FONDO TANQUE-CONDUCTOS",
-      "code": "05006.C",
-      "model": "A4"
+      "name": "CONJ. FONDO TANQUES-COND.",
+      "code": "1234",
+      "model": "B4"
     },
     {
-      "name": "CONJUNTO TAPA CAMARA DE COMBUSTION",
-      "code": "05009",
-      "model": "A4/A5/A6"
+      "name": "CONJ. TAPA CAMARA DE COMB.",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "ARO RETENCION",
-      "code": "06668",
-      "model": "A4/A5/A6"
+      "name": "ARO",
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
       "name": "FUNDA GABINETE",
-      "code": "06674.A",
-      "model": "A4"
+      "code": "1234",
+      "model": "B4"
     },
     {
-      "name": "CONJUNTO TAPA-FUNDA TANQUE",
-      "code": "07058.A",
-      "model": "A4"
+      "name": "CONJUNTO TAPA-FUNDA TANQUES",
+      "code": "1234",
+      "model": "B4"
     },
     {
       "name": "TAPA GABINETE",
-      "code": "09325",
-      "model": "A4"
+      "code": "1234",
+      "model": "B4"
     },
     {
       "name": "FONDO GABINETE",
-      "code": "09327",
-      "model": "A4/A5/A6"
+      "code": "1234",
+      "model": "B4/Z5/S"
     },
     {
-      "name": "FUNDA TANQUE",
-      "code": "04851.D",
-      "model": "A5"
+      "name": "FUNDA TANQUES",
+      "code": "1234",
+      "model": "Z5"
     },
     {
       "name": "DEFLECTOR SALIDA DE GASES",
-      "code": "04887.A",
-      "model": "A5"
+      "code": "1234",
+      "model": "Z5"
     },
     {
-      "name": "CONJUNTO FONDO TANQUE-CONDUCTOS",
-      "code": "05005.G",
-      "model": "A5"
+      "name": "CONJUNTO FONDO TANQUES-CONDUCTOS",
+      "code": "1234",
+      "model": "Z5"
     },
     {
       "name": "FUNDA GABINETE",
-      "code": "07079.A",
-      "model": "A5"
+      "code": "1234",
+      "model": "Z5"
     },
     {
-      "name": "CONJUNTO TANQUE",
-      "code": "07080.A",
-      "model": "A5"
+      "name": "CONJUNTO TANQUES",
+      "code": "1234",
+      "model": "Z5"
     },
     {
-      "name": "CONJUNTO TAPA-FUNDA TANQUE",
-      "code": "07081.A",
-      "model": "A5"
+      "name": "CONJUNTO TAPA-FUNDA TANQUES",
+      "code": "1234",
+      "model": "Z5"
     },
     {
       "name": "TAPA GABINETE",
-      "code": "09326",
-      "model": "A5/A6"
+      "code": "1234",
+      "model": "Z5/S"
     },
     {
-      "name": "FUNDA TANQUE",
-      "code": "04853.A",
-      "model": "A6"
+      "name": "FUNDA TANQUES",
+      "code": "1234",
+      "model": "S"
     },
     {
-      "name": "FUNDA CAMARA DE COMBUSTION",
-      "code": "04874",
-      "model": "A6"
+      "name": "FUNDA CAM. DE COMBUSTION",
+      "code": "1234",
+      "model": "S"
     },
     {
-      "name": "DEFLECTOR SALIDA DE GASES",
-      "code": "04877.A",
-      "model": "A6"
+      "name": "DEFL. SALIDA DE GASES",
+      "code": "1234",
+      "model": "S"
     },
     {
       "name": "CUBRECAÑOS",
-      "code": "04913.C",
-      "model": "A6"
+      "code": "1234",
+      "model": "S"
     },
     {
-      "name": "PROTECCION CAMARA DE COMBUSTION",
-      "code": "04961.B",
-      "model": "A6"
+      "name": "PROT. CAMARA DE COMBUSTION",
+      "code": "1234",
+      "model": "S"
     },
     {
       "name": "FUNDA GABINETE",
-      "code": "07085.A",
-      "model": "A6"
+      "code": "1234",
+      "model": "S"
     },
     {
-      "name": "CONJUNTO TAPA-FUNDA TANQUE AQP-30",
-      "code": "07609.C",
-      "model": "A6"
+      "name": "CONJ. TAPA-FUNDA TANQUES",
+      "code": "1234",
+      "model": "S"
     }
   ]
 }
